@@ -6,6 +6,9 @@ import { useMousePosition } from "@/util/mouse";
 interface ParticlesProps {
 	className?: string;
 	quantity?: number;
+	r?: number;
+	g?: number;
+	b?: number;
 	staticity?: number;
 	ease?: number;
 	refresh?: boolean;
