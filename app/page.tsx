@@ -10,7 +10,7 @@ const navigation = [
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-white via-slate-950/20 to-white">
-      <nav className=" animate-fade-in">
+      <nav className="mb-2 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
             <Link
@@ -42,7 +42,7 @@ export default function Home() {
       </div>
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-950 ">
-          At the forefront of transformative computer vision and deep learning applications in healthcare.
+          At the forefront of transformative deep learning applications in healthcare, from computer vision to natural language processing.
         </h2>
       </div>
     </div>
