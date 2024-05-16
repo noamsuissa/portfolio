@@ -15,10 +15,11 @@ export const Article: React.FC<Props> = ({ project, views }) => {
 					<span className="text-xs duration-1000 text-slate-950 group-hover:text-slate-50 group-hover:border-slate-950 drop-shadow-orange">
 						{project.date ? (
 							<time dateTime={new Date(project.date).toISOString()}>
-								{Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(
-									new Date(project.date),
-								)}
-							</time>
+							{Intl.DateTimeFormat(undefined, {
+							  dateStyle: "medium",
+							  timeZone: "UTC",
+							}).format(new Date(project.date))}
+						  </time>
 						) : (
 							<span>SOON</span>
 						)}
