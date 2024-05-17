@@ -6,23 +6,23 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "noamsuissa.com",
-    template: "%s | noamsuissa.com",
+    default: "noamaidev.com",
+    template: "%s | noamaidev.com",
   },
   description: "Medical CV and DL applications engineer",
   openGraph: {
-    title: "noamsuissa.com",
+    title: "noamaidev.com",
     description:
       "Medical CV and DL applications engineer",
-    url: "https://noamsuissa.com",
-    siteName: "noamsuissa.com",
-    images: [
-      {
-        url: "https://noamsuissa.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    url: "https://noamaidev.com",
+    siteName: "noamaidev.com",
+    // images: [
+    //   {
+    //     url: "https://noamaidev.com/og.png",
+    //     width: 1920,
+    //     height: 1080,
+    //   },
+    // ],
     locale: "en-US",
     type: "website",
   },
@@ -36,10 +36,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
   },
   icons: {
     shortcut: "/favicon.png",
