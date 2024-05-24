@@ -22,14 +22,14 @@ export default async function ProjectsPage() {
 
   const featured = allProjects.find((project) => project.slug === "usnb")!;
   const top2 = allProjects.find((project) => project.slug === "flowsentry")!;
-  //const top3 = allProjects.find((project) => project.slug === "ejectionsentry")!;
+  const top3 = allProjects.find((project) => project.slug === "gitractseg")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
       (project) =>
         project.slug !== featured.slug &&
-        project.slug !== top2.slug //&&
-   //     project.slug !== top3.slug,
+        project.slug !== top2.slug &&
+        project.slug !== top3.slug,
     )
     .sort(
       (a, b) =>
@@ -85,7 +85,7 @@ export default async function ProjectsPage() {
                 <p className="mt-4 leading-8 duration-150 text-slate-950 group-hover:text-slate-50">
                   {featured.description}
                 </p>
-                <div className="absolute">
+                <div className="absolute bottom-4 md:bottom-8">
                   <p className="hidden text-slate-950 group-hover:text-slate-50 lg:block">
                     Read more <span aria-hidden="true">&rarr;</span>
                   </p>
@@ -95,7 +95,7 @@ export default async function ProjectsPage() {
           </Card>
 
           <div className="flex flex-col w-full gap-8 mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 ">
-            {[top2].map((project) => (
+            {[top2, top3].map((project) => (
               <Card key={project.slug}>
                 <Article project={project} views={views[project.slug] ?? 0} />
               </Card>
