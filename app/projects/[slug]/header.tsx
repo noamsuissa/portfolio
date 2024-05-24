@@ -2,6 +2,7 @@
 import { ArrowLeft, Eye, Github, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
+import Particles from "../../components/particles";
 
 type Props = {
 	project: {
@@ -45,6 +46,14 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 			ref={ref}
 			className="relative isolate overflow-hidden bg-gradient-to-tl from-black via-zinc-900 to-black"
 		>
+			<Particles
+				className="absolute inset-0 -z-11"
+				quantity={100}
+				staticity={15}
+				r={0}
+				g={255}
+				b={0}
+			/>
 			<div
 				className={`fixed inset-x-0 top-0 z-50 backdrop-blur lg:backdrop-blur-none duration-200 border-b lg:bg-transparent ${
 					isIntersecting
