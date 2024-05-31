@@ -16,13 +16,13 @@ export const metadata: Metadata = {
       "Medical CV and DL applications engineer",
     url: "https://noamaidev.com",
     siteName: "noamaidev.com",
-    // images: [
-    //   {
-    //     url: "https://noamaidev.com/og.png",
-    //     width: 1920,
-    //     height: 1080,
-    //   },
-    // ],
+    images: [
+      {
+        url: "https://noamaidev.com/og.png",
+        width: 1920,
+        height: 1080,
+      },
+    ],
     locale: "en-US",
     type: "website",
   },
