@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "noamaidev.com",
     images: [
       {
-        url: "https://noamaidev.com/og.png",
+        url: "https://noamaidev.com/og_new.png",
         width: 1298,
         height: 654,
       },
