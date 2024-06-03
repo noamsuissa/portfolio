@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://noamaidev.com/og.png",
-        width: 1920,
-        height: 1080,
+        width: 1298,
+        height: 654,
       },
     ],
     locale: "en-US",
