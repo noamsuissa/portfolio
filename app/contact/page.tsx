@@ -7,13 +7,13 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Linkedin size={20} />,
-		href: "https://www.linkedin.com/in/noam-suissa-m-sc-b-eng-ba937b172/recent-activity/all/",
+		href: "https://www.linkedin.com/in/noamsuissa18",
 		label: "LinkedIn",
 		handle: "Noam Suissa",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:noam.suissa01@gmail.com",
 		label: "Email",
 		handle: "noam.suissa01@gmail.com",
 	},
