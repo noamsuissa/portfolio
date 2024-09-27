@@ -18,6 +18,8 @@ export default function Home() {
               key={item.href}
               href={item.href}
               className="text-sm duration-500 text-zinc-600 hover:text-zinc-950"
+              target={item.target}
+              rel={item.rel}
             >
               {item.name}
             </Link>

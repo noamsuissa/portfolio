@@ -40,6 +40,14 @@ export const Navigation: React.FC = () => {
 						>
 							Contact
 						</Link>
+						<Link
+							href="https://blog.noamaidev.com"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="duration-200 text-slate-600 hover:text-slate-950"
+						>
+							Blog
+						</Link>
 					</div>
 
 					<Link
