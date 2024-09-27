@@ -5,6 +5,7 @@ import Particles from "./components/particles";
 const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
+  { name: "Blog", href: "https://blog.noamaidev.com", target: "_blank", rel: "noopener noreferrer" },
 ];
 
 export default function Home() {
